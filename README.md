@@ -1,4 +1,4 @@
-<div align="center">
+<div align="">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0f172a,50:1e3a8a,100:06b6d4&text=Network%20Intrusion%20Detection%20System&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI-Powered%20Cybersecurity%20Threat%20Detection%20Platform&descAlignY=58&animation=fadeIn" width="100%" />
 
@@ -29,7 +29,7 @@ A machine learning-based intrusion detection system designed to identify malicio
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="" width="33%">
 
 ### 🎓 Institution
 
@@ -37,7 +37,7 @@ FAST National University of Computer & Emerging Sciences
 
 </td>
 
-<td align="center" width="33%">
+<td align="" width="33%">
 
 ### 📘 Course
 
@@ -47,7 +47,7 @@ Spring 2026
 
 </td>
 
-<td align="center" width="33%">
+<td align="" width="33%">
 
 ### 🛡️ Domain
 
@@ -395,7 +395,7 @@ This project is developed for educational and academic purposes.
 
 ---
 
-<div align="center">
+<div align="">
 
 # ⭐ If you found this project helpful, consider starring the repository!
 
