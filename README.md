@@ -276,23 +276,21 @@ Benefits:
 # 📂 Repository Structure
 
 ```text
-```text
 📦 Network-Intrusion-Detection-System
 │
 ├── 📓 Network_Intrusion_Detection_System.ipynb
-│   └── Main project notebook containing:
-│       • Data Preprocessing
-│       • Exploratory Data Analysis
-│       • KNN Classification
-│       • K-Means Clustering
-│       • Genetic Algorithm Feature Selection
-│       • Model Evaluation
+│   ├── Data Preprocessing
+│   ├── Exploratory Data Analysis
+│   ├── KNN Classification
+│   ├── K-Means Clustering
+│   ├── Genetic Algorithm Feature Selection
+│   └── Model Evaluation
 │
 ├── 📊 network_traffic.csv
-│   └── Network traffic dataset (6000 records)
+│   └── Network Traffic Dataset (6000 Records)
 │
 ├── 📄 NIDS_Report.docx
-│   └── Detailed project report and analysis
+│   └── Detailed Project Report and Analysis
 │
 ├── 📸 screenshots/
 │   ├── confusion_matrix.png
@@ -301,15 +299,11 @@ Benefits:
 │   └── feature_selection_results.png
 │
 ├── 📋 requirements.txt
-│   └── Project dependencies
+│   └── Project Dependencies
 │
 └── 📖 README.md
-    └── Project documentation
+    └── Project Documentation
 ```
-
-```
-
----
 
 # 🚀 Getting Started
 
