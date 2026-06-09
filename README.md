@@ -1,46 +1,145 @@
-# Network Intrusion Detection System (NIDS)
+<div align="center">
 
-## Overview
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0f172a,50:1e3a8a,100:06b6d4&text=Network%20Intrusion%20Detection%20System&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=AI-Powered%20Cybersecurity%20Threat%20Detection%20Platform&descAlignY=58&animation=fadeIn" width="100%" />
 
-This project implements a **Network Intrusion Detection System (NIDS)** using Machine Learning and Artificial Intelligence techniques to identify malicious network traffic and distinguish it from normal network activity.
+<br/>
 
-The system was developed as part of an Artificial Intelligence laboratory project and demonstrates the application of supervised learning, unsupervised learning, search optimization, and intelligent agent concepts in cybersecurity.
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=24&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=900&lines=Artificial+Intelligence+for+Cybersecurity;KNN-Based+Intrusion+Detection;Genetic+Algorithm+Feature+Selection;K-Means+Traffic+Pattern+Analysis;Machine+Learning+Threat+Detection+System" />
 
-The project utilizes a network traffic dataset containing 6,000 records and evaluates multiple AI approaches including:
+<br/><br/>
 
-* K-Nearest Neighbors (KNN)
-* Reflex-Based Agent
-* K-Means Clustering
-* Genetic Algorithm for Feature Selection
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Cybersecurity-NIDS-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Complete-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Academic-Project-blueviolet?style=for-the-badge"/>
 
-The objective is to accurately classify network traffic while reducing computational complexity through feature optimization.
+<br/><br/>
+
+# 🛡️ Network Intrusion Detection System (NIDS)
+
+### ⚡ AI-Powered Cybersecurity Threat Detection Platform
+
+<p align="center">
+A machine learning-based intrusion detection system designed to identify malicious network activity, analyze traffic behavior, and classify attacks using supervised and unsupervised Artificial Intelligence techniques.
+</p>
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🎓 Institution
+
+FAST National University of Computer & Emerging Sciences
+
+</td>
+
+<td align="center" width="33%">
+
+### 📘 Course
+
+Artificial Intelligence Lab
+
+Spring 2026
+
+</td>
+
+<td align="center" width="33%">
+
+### 🛡️ Domain
+
+Cybersecurity
+
+Machine Learning
+
+Network Security
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Objectives
+# 📋 Table of Contents
 
-* Detect malicious network traffic patterns.
-* Compare multiple AI techniques for intrusion detection.
-* Evaluate classification performance using standard metrics.
-* Reduce feature dimensionality using Genetic Algorithms.
-* Improve detection efficiency while maintaining accuracy.
+* 📌 Project Overview
+* 🎯 Objectives
+* 📊 Project Snapshot
+* 📁 Dataset Information
+* ✨ Core Features
+* 🏗 System Architecture
+* 🔄 Project Workflow
+* 🧠 AI Techniques
+* 📈 Model Performance
+* 🧬 Genetic Algorithm Feature Selection
+* 📂 Repository Structure
+* 🚀 Getting Started
+* 📸 Results & Visualizations
+* 🛠 Tech Stack
+* 🔮 Future Improvements
+* 👨‍💻 Author
+* 📜 License
 
 ---
 
-## Dataset
+# 📌 Project Overview
 
-The project uses a network traffic dataset containing network activity records.
+The Network Intrusion Detection System (NIDS) is an Artificial Intelligence-based cybersecurity solution developed to detect malicious network traffic and distinguish it from legitimate network activity.
+
+The system combines machine learning algorithms, intelligent agents, clustering techniques, and evolutionary optimization methods to improve detection accuracy while reducing computational complexity.
+
+The project demonstrates the practical application of Artificial Intelligence in defending computer networks against cyber threats.
+
+---
+
+# 🎯 Objectives
+
+✅ Detect malicious network traffic
+
+✅ Classify normal and intrusive network behavior
+
+✅ Compare supervised and unsupervised learning techniques
+
+✅ Optimize feature selection using Genetic Algorithms
+
+✅ Analyze model performance using standard evaluation metrics
+
+✅ Demonstrate AI applications in cybersecurity
+
+---
+
+# 📊 Project Snapshot
+
+| Component                | Value             |
+| ------------------------ | ----------------- |
+| Dataset Records          | 6,000             |
+| Machine Learning Models  | 3                 |
+| Feature Selection Method | Genetic Algorithm |
+| Selected Features        | 11                |
+| Best Accuracy            | 95.75%            |
+| Development Environment  | Jupyter Notebook  |
+| Programming Language     | Python            |
+
+---
+
+# 📁 Dataset Information
+
+The project utilizes a network traffic dataset containing records of network activity.
 
 ### Dataset Characteristics
 
-* Total Records: 6,000
-* Features: Network traffic attributes
-* Target Classes:
+| Property            | Value                       |
+| ------------------- | --------------------------- |
+| Records Used        | 6,000                       |
+| Domain              | Network Security            |
+| Classification Type | Binary Classification       |
+| Classes             | Normal / Intrusion          |
+| Preprocessing       | Cleaning & Feature Encoding |
 
-  * Normal Traffic
-  * Malicious/Intrusive Traffic
-
-The dataset is included in the repository:
+Dataset File:
 
 ```text
 network_traffic.csv
@@ -48,159 +147,133 @@ network_traffic.csv
 
 ---
 
-## Technologies Used
+# ✨ Core Features
 
-### Programming Language
-
-* Python
-
-### Development Environment
-
-* Jupyter Notebook
-
-### Libraries
-
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-Learn
+* Intelligent Intrusion Detection
+* Network Traffic Classification
+* Genetic Algorithm Feature Selection
+* KNN-Based Threat Detection
+* Reflex Agent Implementation
+* K-Means Traffic Clustering
+* Data Visualization
+* Performance Evaluation
 
 ---
 
-## AI Techniques Implemented
+# 🏗 System Architecture
 
-### 1. Reflex Agent
-
-A rule-based intelligent agent was implemented as a baseline intrusion detection mechanism.
-
-#### Result
-
-* Accuracy: 82.17%
-
-The reflex agent makes decisions using predefined conditions and serves as a benchmark for comparing machine learning approaches.
+```text
+┌─────────────────────────────┐
+│ Network Traffic Dataset     │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│ Data Preprocessing          │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│ Genetic Algorithm           │
+│ Feature Selection           │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│ Machine Learning Models     │
+│                             │
+│ • Reflex Agent             │
+│ • KNN                      │
+│ • K-Means                  │
+└─────────────┬───────────────┘
+              │
+              ▼
+┌─────────────────────────────┐
+│ Intrusion Detection Results │
+└─────────────────────────────┘
+```
 
 ---
 
-### 2. K-Nearest Neighbors (KNN)
+# 🧠 AI Techniques
 
-KNN was used as the primary supervised learning classifier.
+## 🤖 K-Nearest Neighbors (KNN)
 
-#### Configuration
+### Configuration
 
 ```text
 K = 1
 ```
 
-#### Result
+### Result
 
 ```text
 Accuracy = 95.75%
 ```
 
-KNN achieved the highest classification accuracy among the implemented techniques and proved highly effective for intrusion detection.
+The KNN model achieved the highest classification performance among all implemented techniques.
 
 ---
 
-### 3. K-Means Clustering
+## 🧠 Reflex Agent
 
-An unsupervised learning approach was used to explore natural groupings within network traffic data.
+A rule-based intelligent agent used as a baseline intrusion detection approach.
 
-#### Purpose
-
-* Discover hidden traffic patterns.
-* Analyze separation between normal and malicious traffic.
-* Visualize clustering behavior.
-
-The clustering results demonstrated meaningful separation between traffic categories.
-
----
-
-### 4. Genetic Algorithm Feature Selection
-
-A Genetic Algorithm was applied to identify the most relevant network traffic features.
-
-#### Results
-
-* Original Features: Full Feature Set
-* Selected Features: 11
-
-The optimized feature subset maintained classification performance while reducing computational requirements.
-
-#### Benefits
-
-* Faster training
-* Reduced complexity
-* Lower storage requirements
-* Improved deployment efficiency
-
----
-
-## Project Workflow
+### Result
 
 ```text
-Dataset Collection
-        │
-        ▼
-Data Preprocessing
-        │
-        ▼
-Exploratory Data Analysis
-        │
-        ▼
-Feature Selection (Genetic Algorithm)
-        │
-        ▼
-Model Training
- ├── Reflex Agent
- ├── KNN
- └── K-Means
-        │
-        ▼
-Performance Evaluation
-        │
-        ▼
-Intrusion Detection Results
+Accuracy = 82.17%
 ```
 
 ---
 
-## Evaluation Metrics
+## 📊 K-Means Clustering
 
-The project evaluates model performance using:
+An unsupervised learning approach used to identify patterns and natural groupings within network traffic.
 
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
+### Purpose
 
-These metrics help assess the effectiveness of intrusion detection techniques.
+* Pattern Discovery
+* Traffic Segmentation
+* Cluster Visualization
 
 ---
 
-## Results Summary
+## 🧬 Genetic Algorithm
 
-| Method            | Accuracy          |
-| ----------------- | ----------------- |
-| Reflex Agent      | 82.17%            |
-| KNN (K=1)         | 95.75%            |
-| K-Means           | Pattern Discovery |
-| Genetic Algorithm | 11 Feature Subset |
+Used to identify the most important network traffic features.
 
-### Best Performing Technique
+### Results
 
-🏆 **K-Nearest Neighbors (K=1)**
+| Metric               | Value        |
+| -------------------- | ------------ |
+| Original Features    | Full Dataset |
+| Selected Features    | 11           |
+| Performance Retained | Yes          |
 
-Accuracy achieved:
+Benefits:
 
-```text
-95.75%
-```
+* Reduced Complexity
+* Faster Processing
+* Better Scalability
+* Improved Efficiency
 
 ---
 
-## Repository Structure
+# 📈 Model Performance
+
+| Technique         | Accuracy             |
+| ----------------- | -------------------- |
+| Reflex Agent      | 82.17%               |
+| KNN (K=1)         | 95.75%               |
+| K-Means           | Pattern Discovery    |
+| Genetic Algorithm | 11 Features Selected |
+
+🏆 Best Performing Model: K-Nearest Neighbors (K=1)
+
+---
+
+# 📂 Repository Structure
 
 ```text
 Network-Intrusion-Detection-System/
@@ -210,14 +283,20 @@ Network-Intrusion-Detection-System/
 ├── NIDS_Report.docx
 ├── README.md
 │
-└── Output Visualizations
+├── screenshots/
+│   ├── confusion_matrix.png
+│   ├── knn_results.png
+│   ├── kmeans_clusters.png
+│   └── feature_selection.png
+│
+└── requirements.txt
 ```
 
 ---
 
-## Installation
+# 🚀 Getting Started
 
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Malik-Sanaullah/Network-Intrusion-Detection-Sysytem.git
@@ -225,37 +304,13 @@ git clone https://github.com/Malik-Sanaullah/Network-Intrusion-Detection-Sysytem
 cd Network-Intrusion-Detection-Sysytem
 ```
 
-### Create Virtual Environment
-
-```bash
-python -m venv nids_env
-```
-
-### Activate Environment
-
-#### Windows
-
-```bash
-nids_env\Scripts\activate
-```
-
-#### Linux/macOS
-
-```bash
-source nids_env/bin/activate
-```
-
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn notebook jupyter ipykernel
 ```
 
----
-
-## Running the Project
-
-Launch Jupyter Notebook:
+## Launch Notebook
 
 ```bash
 jupyter notebook
@@ -267,49 +322,76 @@ Open:
 Network_Intrusion_Detection_System.ipynb
 ```
 
-Run all notebook cells:
+Run all cells using:
 
 ```text
 Shift + Enter
 ```
 
-or
+---
 
-```text
-Run → Run All Cells
-```
+# 📸 Results & Visualizations
+
+Add screenshots from:
+
+* Confusion Matrix
+* KNN Results
+* K-Means Clustering
+* Feature Selection Results
+* Accuracy Comparison Charts
 
 ---
 
-## Future Improvements
+# 🛠 Tech Stack
+
+| Category         | Technologies        |
+| ---------------- | ------------------- |
+| Programming      | Python              |
+| Machine Learning | Scikit-Learn        |
+| Data Analysis    | Pandas, NumPy       |
+| Visualization    | Matplotlib, Seaborn |
+| Environment      | Jupyter Notebook    |
+| Version Control  | Git & GitHub        |
+
+---
+
+# 🔮 Future Improvements
 
 * Deep Learning-Based IDS
-* Real-Time Traffic Monitoring
-* Explainable AI (XAI)
-* Hybrid Detection Models
+* Real-Time Packet Monitoring
+* Explainable AI Integration
 * Cloud Deployment
-* Live Dashboard Integration
+* Live Threat Dashboard
+* Hybrid Detection Systems
 
 ---
 
-## Academic Purpose
+# 👨‍💻 Author
 
-This project was developed for educational and research purposes to demonstrate the practical application of Artificial Intelligence techniques in cybersecurity and network intrusion detection.
-
----
-
-## Author
-
-**Malik Muhammad Sanaullah**
+### Malik Muhammad Sanaullah
 
 Computer Science Student
 
-FAST National University of Computer and Emerging Sciences
+FAST National University of Computer & Emerging Sciences
 
-Pakistan
+Cybersecurity & Artificial Intelligence Enthusiast
 
 ---
 
-## License
+# 📜 License
 
-This project is intended for educational and academic use.
+This project is developed for educational and academic purposes.
+
+---
+
+<div align="center">
+
+# ⭐ If you found this project helpful, consider starring the repository!
+
+Made with ❤️ by Malik Muhammad Sanaullah
+
+FAST-NUCES
+
+Cybersecurity • Artificial Intelligence • Machine Learning
+
+</div>
