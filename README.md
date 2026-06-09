@@ -21,7 +21,7 @@
 
 ### ⚡ AI-Powered Cybersecurity Threat Detection Platform
 
-<p align="center">
+<p align="">
 A machine learning-based intrusion detection system designed to identify malicious network activity, analyze traffic behavior, and classify attacks using supervised and unsupervised Artificial Intelligence techniques.
 </p>
 
