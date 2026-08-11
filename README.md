@@ -343,11 +343,9 @@ Add screenshots from:
 
 # 👨‍💻 Author
 
-### Malik Muhammad Sanaullah
+### Sam
 
 Computer Science Student
-
-FAST National University of Computer & Emerging Sciences
 
 Cybersecurity & Artificial Intelligence Enthusiast
 
@@ -363,10 +361,6 @@ This project is developed for educational and academic purposes.
 
 # ⭐ If you found this project helpful, consider starring the repository!
 
-Made with ❤️ by Malik Muhammad Sanaullah
-
-FAST-NUCES
-
-Cybersecurity • Artificial Intelligence • Machine Learning
+Made with ❤️ by Sam
 
 </div>
