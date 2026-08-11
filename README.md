@@ -27,42 +27,6 @@ A machine learning-based intrusion detection system designed to identify malicio
 
 <br/>
 
-<table>
-<tr>
-<td align="" width="33%">
-
-### 🎓 Institution
-
-FAST National University of Computer & Emerging Sciences
-
-</td>
-
-<td align="" width="33%">
-
-### 📘 Course
-
-Artificial Intelligence Lab
-
-Spring 2026
-
-</td>
-
-<td align="" width="33%">
-
-### 🛡️ Domain
-
-Cybersecurity
-
-Machine Learning
-
-Network Security
-
-</td>
-</tr>
-</table>
-
----
-
 # 📋 Table of Contents
 
 * 📌 Project Overview
